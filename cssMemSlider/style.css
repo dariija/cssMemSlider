@@ -1,0 +1,16 @@
+bode {
+    margin: 0;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+p {
+    margin: 0;
+}
+
+
+
