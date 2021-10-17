@@ -30,7 +30,6 @@ ul, ol {
     list-style: none;
 }
 .container {
-    width: 100vw;
     min-height: 100vh;
     padding: 50px;
 
