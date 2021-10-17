@@ -5,38 +5,40 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link rel="stylesheet" href="style.css">
-
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Andada+Pro&family=Montserrat:wght@300;400&family=Nanum+Gothic&family=Playfair+Display&family=Quicksand&family=Raleway&family=Scheherazade+New&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="style.css">
     <title>Mem Slider</title>
 </head>
 <body>
     <div class="container">
         <div class="slider">
-            <div class="slider__inner">
+            <div class="slider__inner-wrap ">
                 <input class="radio-item" type="radio" name="choose-mem" id="radio1" checked>
                 <input class="radio-item" type="radio" name="choose-mem" id="radio2">
                 <input class="radio-item" type="radio" name="choose-mem" id="radio3">
                 <input class="radio-item" type="radio" name="choose-mem" id="radio4">
 
-                <div class="slides">
-                    <div class="slide slide_shift">
-                        <img class="slide-img" src="memes\mem1.jpg" alt="mem1" >
-                    </div>
-                    <div class="slide">
-                        <img class="slide-img" src="memes\mem3.jpg" alt="mem2" >
-                    </div>
-                    <div class="slide">
-                        <img class="slide-img" src="memes\mem4.jpg" alt="mem3" >
-                    </div>
-                    <div class="slide">
-                        <img class="slide-img" src="" alt="mem4" >
+                <div class="slider__inner">
+                    <div class="slides">
+                        <div class="slide slide_shift">
+                            <img class="slide__img" src="memes/mem1.jpg" alt="mem1" >
+                        </div>
+                        <div class="slide">
+                            <img class="slide__img" src="memes/mem2.jpg" alt="mem2" >
+                        </div>
+                        <div class="slide">
+                            <img class="slide__img" src="memes/mem3.jpg" alt="mem3" >
+                        </div>
+                        <div class="slide">
+                            <img class="slide__img" src="memes/mem6.jpg" alt="mem4" >
+                        </div>
                     </div>
                 </div>
     
-                <div class="slider__content">
+                <!-- <div class="slider__content"> -->
                     <div class="slider-texts">
                         <div class="slider-texts__items">
                             <div class="slider-texts__slide slide_shift">
@@ -72,7 +74,7 @@
                             </div>
                         </div> 
                     </div>
-                </div>
+                <!-- </div> -->
             </div>
         </div>
     </div>
